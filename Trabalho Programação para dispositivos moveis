@@ -1,0 +1,261 @@
+import React from "reacr";
+import { View } from "react-native";
+
+function App(){
+	return(
+	 <View>
+
+
+	 </View>
+	);
+}
+export deafult App;
+
+
+
+
+
+
+
+
+import React from "reacr";
+import { View } from "react-native";
+
+function App(){
+	return(
+	 <View>
+	   <Text>Olá Mundo !!!</Text>
+
+
+	 </View>
+	);
+}
+export deafult App;
+
+
+
+
+
+
+
+
+
+import React, {Component} from 'react';
+import {View, Text} from 'react-native';
+
+class App extends Component{
+	render(){
+	 return(
+	  <View>
+	    <Text>Olá Mundo!!!</Text>
+	  </View>
+
+	);
+      }
+
+ }
+export default App;
+
+
+
+
+
+
+
+
+import React, {Component} from 'react';
+import {View, Text} from 'react-native';
+
+class App extends Component{
+	render(){
+	 return(
+	  <View>
+	    <Text>Olá Mundo!!!</Text>
+	    <Text>Meu Primeiro App"</Text>
+	  </View>
+
+	);
+      }
+
+ }
+export default App;
+
+
+
+
+
+
+COPIADO
+import React from "react";
+import { View, Text } from "react-native";
+function App(){
+return(
+<View>
+<Text> Olá Mundo!!!</Text>
+</View>
+);
+}
+export default App
+
+
+
+COPIADO
+import React, {Component} from 'react';
+import {View,Text} from 'react-native';
+class App extends Component{
+render(){
+return(
+<View>
+<Text></Text>
+<Text>Olá Mundo!!!</Text>
+</View>
+);
+}
+}
+export default App;
+
+
+
+
+
+
+import React, {Component} from 'react';
+import {View, Text} from 'react-native';
+
+class App extends Component{
+	render(){
+	 return(
+	  <View>
+	    <Text>Olá Mundo!!!</Text>
+	    <Text>Meu primeiro App"</Text>
+	    <Text style={{color:'red'}}>Teste de Propriedade</Text>
+	    {/* <Text style={{color: '#FF0000'}}>Teste de Propriedade</Text */}
+	);
+  }
+}
+export default App;
+
+
+
+
+
+
+
+
+
+COPIADO
+import React, {Component} from 'react';
+import {View,Text} from 'react-native';
+class App extends Component{
+render(){
+return(
+<View>
+<Text>Olá Mundo!!!</Text>
+<Text>Meu Primeiro App!</Text>
+<Text style={{color:'red'}}>Teste de Propredade</Text>
+{/* <Text style={{color:'#FF0000'}}>Teste de Propredade</Text> */}
+</View>
+);
+}
+}
+export default App;
+
+
+
+
+
+
+import React, {Component} from 'react';
+import {View, Text} from 'react-native';
+
+class App extends Component{
+	render(){
+	 return(
+	  <View>
+	    <Text>Olá Mundo!!!</Text>
+	    <Text>Meu primeiro App"</Text>
+	    <Text style={{color:'red', fontSize: 25}}>Teste de Propriedade</Text>
+	    {/* <Text style={{color: '#FF0000'}}>Teste de Propriedade</Text */}
+	  </View>
+
+	);
+  }
+}
+export default App;
+
+
+
+
+
+
+import React, {Component} from 'react';
+import {View, Text} from 'react-native';
+
+class App extends Component{
+	render(){
+	 return(
+	  <View>
+	    <Text>Olá Mundo!!!</Text>
+	    <Text>Meu primeiro App"</Text>
+	    <Text style={{color:'red', fontSize: 25}}>Teste de Propriedade</Text>
+	    {/* <Text style={{color: '#FF0000'}}>Teste de Propriedade</Text */}
+	  </View>
+
+	);
+  }
+}
+export default App;
+
+
+
+
+import React, {Component} from 'react';
+import {View, Text, Image} from 'react-native';
+
+class App extends Component{
+	render(){
+	 return(
+	  <View>
+	    <Text>Olá Mundo!!!</Text>
+	    <Text>Meu primeiro App"</Text>
+	    <Text style={{color:'#FF000',fontSize: 25, margin: 15}}> Teste de Propridade</Text>
+	    <Image
+	      source={{ uri: 'https://i2.wp.com/telhasparana.com.br/wp-content/uploads/2021/07/supernova-chumbo.png?fit=750%2C484&ssl=1' }}
+	      style={{ width: 300, height: 300 }}
+	    />
+	  </View>
+
+	);
+  }
+}
+export default App;
+
+
+
+
+
+
+COPIADO
+import React, {Component} from 'react';
+import {View,Text,Image} from 'react-native';
+class App extends Component{
+render(){
+return(
+<View>
+<Text>Olá Mundo!!!</Text>
+<Text>Meu Primeiro App!</Text>
+<Text style={{color:'#FF0000',fontSize: 25, margin:15}}>Teste de Propriedade</Text>
+<Image
+source={{ uri: 'https://reactnative.dev/img/tiny_logo.png' }}
+style={{ width: 300, height: 300 }}
+/>
+</View>
+);
+}
+}
+export default App;
+
+
+
+
+30 SLIDE
